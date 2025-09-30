@@ -10,7 +10,7 @@ datasource db {
 model Movie {
   id String @id @default(uuid())                    
   title String
-  cetegory String
+  category String
   duration Int
   sinopse String
   releaseYear Int
